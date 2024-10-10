@@ -6,6 +6,7 @@ return addMOneyNumber;
 
 function getTextfieldValueById(id){
       const textValue = document.getElementById(id).innerText;
-      return textValue;
+      const textNumber = parseFloat(textValue);
+      return textNumber;
 }
 
